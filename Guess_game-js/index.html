@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Guess-Game</title>
+</head>
+
+<body>
+    <div class="container-fluid bg-container">
+        <div class="row bg-white">
+            <div class="col-12 col-md-6 m-auto bg-white pt-5 pb-5">
+                <img class="guess-game-img"
+                    src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/guess-game-img.png"
+                    alt="guess-game-img" />
+                <p class="text-center game-description">
+                    Find out the right number between 1 to 100
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 guess-bg-container text-center">
+                <h1 class="guess-heading">
+                    Guess The Number
+                    <img class="guess-number-image"
+                        src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/guess-number-img.png"
+                        alt="guess-number-image" />
+                </h1>
+                <input type="text" class="user-input" id="userInput" placeholder="Enter Number" />
+                <div>
+                    <button class="btn btn-info check-guess" onclick="checkGuess()">
+                        Check
+                    </button>
+                </div>
+                <p class="game-resu         lt" id="gameResult"></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>

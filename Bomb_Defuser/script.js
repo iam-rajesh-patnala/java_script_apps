@@ -14,13 +14,14 @@ let countDown = function () {
     }
 };
 
+
 unqId = setInterval(countDown, 1000);
 
 bombDefuserKey.addEventListener("keydown", function (event) {
     let defuseKey = bombDefuserKey.value;
 
-    if (defuseKey == "defuse" && count !== 0 && event.key === "Enter") {
-        bombTimer.innerHTML = "You did it!";
+    if (defuseKey === "buddi" && count !== 0 && event.key === "Enter") {
+        bombTimer.innerHTML = "🎉 You did it! 🎊";
         clearInterval(unqId);
     }
 

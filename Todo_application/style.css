@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+* {
+    font-family: roboto;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    font-size: 15px;
+    letter-spacing: 0.05em;
+}
+
+.todo-bg-container {
+    background-color: #fae5ab;
+    height: 100vh;
+    padding-bottom: 20px;
+}
+
+.todos-heading {
+    text-align: center;
+    font-size: 46px;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+.create-task-heading {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.task {
+    font-weight: normal;
+}
+
+.input-label {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #cecece;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.button {
+    color: #fff;
+    background-color: #6d6dfa;
+    border-width: 0;
+    border-radius: 4px;
+    font-size: 18px;
+    margin: 20px 0px 50px 0px;
+    padding: 5px 20px;
+}
+
+.todo-items-container {
+    padding: 0;
+    margin: 0;
+}
+
+.list-container {
+    margin-top: 12px;
+}
+
+.check-box {
+    width: 20px;
+    height: 20px;
+    margin: 12px 12px 0px 0px;
+}
+
+.label-container {
+    background-color: #9be8ff;
+    width: 100%;
+    border-left: 5px solid #096f92;
+    border-radius: 5px;
+}
+.label-element{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    border-radius: 5px;
+    width: 82%;
+
+}
+.delete-icon-container{
+    text-align: right;
+    width: 18%;
+}
+.delete-icon{
+    padding: 15px;
+    cursor: pointer;
+}
+.checked{
+    text-decoration: line-through;
+}

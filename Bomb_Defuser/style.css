@@ -8,7 +8,7 @@
 }
 
 
-.container{
+.containers{
     background-color: mediumslateblue;
     padding: 30px;
     height: 100vh;
@@ -21,6 +21,17 @@
     text-align: center;
 }
 
+.hint{
+    color: rgb(217, 255, 0);
+    font-size: 20px;
+    margin-top: 20px;
+    font-style: italic; 
+}
+.num, .upper{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    font-weight: bold;
+}
 .bomb-img{
     width: 150px;
     margin-top: 60px;

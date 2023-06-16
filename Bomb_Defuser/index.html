@@ -5,20 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
     <title>Bomb Defuser</title>
 </head>
 
 <body>
-    <div class="container">
+    <div class="containers">
+
+        <p class="hint mb-3">Enter a word to Defuse the Bomb </p>
+
         <input type="text" name="" class="userInput" id="bombDefuserKey">
         <br>
-        <img class="bomb-img"src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/time-bomb-img.png" alt="">
+
+        <p class="hint">The First always <span class="upper">Uppercase</span> & <br>The length of word is <span
+                class="num">5</span> letters</p>
+
+        <img class="bomb-img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/time-bomb-img.png" alt="">
         <br>
-        <p class="bomb-timer" id="bombTimer">10</p>
+        <p class="bomb-timer" id="bombTimer">120</p>
     </div>
     <script src="./script.js"></script>
 </body>
